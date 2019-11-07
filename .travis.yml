@@ -1,1 +1,10 @@
+#we use java
+language: java
 
+#we add the java development kit (JDK)
+jdk:
+- openjdk8
+script:
+#we avoid this error : "the job exceeded the maximum log length and has been terminate "
+- echo -e '<?xml version="1.0" encoding="UTF-8"?>\n<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache
+- cat $HOME/.m2/settings.xml
